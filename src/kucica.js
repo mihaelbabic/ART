@@ -14,7 +14,7 @@ function Kucica(props) {
         <br />
         {props.data.price}
         <br />
-        <button type="button">Kupi</button>
+        <button type="button">Bid</button>
       </div>
     </div>
   );
