@@ -6,8 +6,8 @@ export const Paintings = [
     { "Name": "Head of a Young Apostle", "Artist": "Raphael", "year": "1519–21", "price": "$47.8 million", "Image": "./umjetnine/5.jpg" },
     { "Name": "Head of a Muse", "Artist": "Raphael", "year": "1510", "price": "$48 million", "Image": "./umjetnine/6.png" },
     { "Name": "Lot and His Daughters", "Artist": "Peter Paul Rubens", "year": "1613–14", "price": "$58.2 million", "Image": "./umjetnine/7.jpg" },
-    { "Name": "Massacre of the Innocents", "Artist": "Peter Paul Rubens", "year": "1611–12", "price": "$$76.5 million", "Image": "./umjetnine/8.jpg" },
-    { "Name": "Portrait of a Young Man Holding a Roundel", "Artist": "Sandro Botticelli", "year": "1480", "price": "$$92.2 million", "Image": "./umjetnine/9.jpg" },
+    { "Name": "Massacre of the Innocents", "Artist": "Peter Paul Rubens", "year": "1611–12", "price": "$76.5 million", "Image": "./umjetnine/8.jpg" },
+    { "Name": "Portrait of a Young Man Holding a Roundel", "Artist": "Sandro Botticelli", "year": "1480", "price": "$92.2 million", "Image": "./umjetnine/9.jpg" },
     { "Name": "Pendant Portraits of Maerten Soolmans and Oopjen Coppit", "Artist": "Rembrandt van Rijn", "year": "1634", "price": "$195 million", "Image": "./umjetnine/10.jpeg" },
     { "Name": "Salvator Mundi", "Artist": "Leonardo da Vinci", "year": "1500", "price": "$450.3 million", "Image": "./umjetnine/11.jpg" }
   ]

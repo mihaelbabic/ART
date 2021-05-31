@@ -1,15 +1,59 @@
 .App {
   text-align: center;
+  width: 100vh;
+  height: 100vw;
+  transform-origin: top left;
+  transform: rotate(-90deg) translateX(-100vh);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: #2E1C26;
 }
 
-.haus {
-  width: 30%;
+::-webkit-scrollbar {
+  display: none;
+}
+
+#haus {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 5px;
+  box-shadow: 0px 0px 10px #000;
+  background-color: #2E1C26;
+  border-radius: 30px;
+  color: #FDFFE1;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .stock-container {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+footer {
+  position: sticky;
+  top: 50%;
+  transform: rotate(90deg);
+  width: 100vh;
+  margin-left: -442px;
+  color: #FDFFE1;
+}
+
+img {
+  border: 2px solid orange;
+  border-radius: 15px;
+}
+
+button {
+  padding: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  background-color: #FDFFE1;
+  color: black;
 }
